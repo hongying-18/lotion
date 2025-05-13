@@ -24,8 +24,14 @@
     "build-bundle": "tsc && vite build --mode library && npx tailwind -c ./tailwind.config.cjs -i ./src/index.css -o lib/style.css"
   },
   "dependencies": {
+    "@tiptap/extension-bold": "^2.12.0",
+    "@tiptap/extension-document": "^2.12.0",
+    "@tiptap/extension-history": "^2.12.0",
+    "@tiptap/extension-italic": "^2.12.0",
     "@tiptap/extension-link": "^2.0.0-beta.195",
+    "@tiptap/extension-paragraph": "^2.12.0",
     "@tiptap/extension-placeholder": "^2.0.0-beta.53",
+    "@tiptap/extension-text": "^2.12.0",
     "@tiptap/starter-kit": "^2.0.0-beta.191",
     "@tiptap/vue-3": "^2.0.0-beta.96",
     "fuse.js": "^6.6.2",
